@@ -1,0 +1,18 @@
+GET http://localhost:8003/my-profile HTTP/1.1
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJpdmFuYSIsImlhdCI6MTYyOTEyMzI4N30.StIuP8wld1MVG-jXTGdo2vf7Zp-7Hd0HbJ-et2nhE-aqc6HreLiciv5X6ppx_FhID-xzaKXZerRJztBPrm1Bjf1Exm0hHuz-0TUhVuRsC9Hi6jPxNmzz_9WC-qvbFptXJeUidM-W1tn_lgCV4xOXDDZK-LFh2p-5YvJ4ai3x-td03xwugZRq-rYgg1KHY3DeRGE8dgKYBx_3pKBByWOJ-Pp5DtjS4Q695UW3kvY1S4besAFH-vgplPpTEnS9Pi5zkzuofPpnaWEB4oMdsBgyLZJQYHRBI-n6VWj-ImI6L-v36uuGSF8KWULaOp4jOW86Yp9-oq1HVaccvI4WdM8GYg
+Content-Type: 'text/html';
+
+###
+
+GET http://localhost:8003/public HTTP/1.1
+Content-Type: 'text/html';
+
+###
+
+GET http://localhost:8003/sign/ivana HTTP/1.1
+Content-Type: 'text/html';
+
+###
+
+GET http://localhost:8003/random-test HTTP/1.1
+Content-Type: 'text/html';
